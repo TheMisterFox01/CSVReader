@@ -1,0 +1,1 @@
+gcc CSVReader.cpp -lstdc++ -o csvreader.exe
