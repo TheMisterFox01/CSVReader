@@ -139,7 +139,7 @@ int solveCSV(std::vector<std::vector<std::string>> &table, size_t x1, size_t x2)
         j++;
     }
     if (column == "") {
-        first = std::stoi(row);
+        second = std::stoi(row);
     }
     else
         second = getIntFromTable(table, column, row);
